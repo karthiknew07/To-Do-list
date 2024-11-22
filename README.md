@@ -1,3 +1,7 @@
+
+<img width="1280" alt="Screen Shot 2024-11-22 at 2 42 37 pm" src="https://github.com/user-attachments/assets/4a59f0e7-eb8b-4874-80f1-234693aa4d21">
+
+
 <h1>To-Do List Application Description</h1>
 <br>
 The To-Do List project is a simple yet effective tool designed to help users manage their daily tasks and improve productivity. The application provides an intuitive interface where users can create, organize, and prioritize tasks effortlessly
