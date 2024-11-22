@@ -1,0 +1,100 @@
+body{ 
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,0.028124999999999956) 0%, rgb(204, 253, 45) 100%);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-image: url(todo\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .todo-container{
+    background: rgb(233, 216, 216);
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid #ff00a2;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+  }
+  
+  #input-box{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+  }
+   
+  #input-button{
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0044ff;
+  }
+  
+  .task button{
+    background: rgb(12, 124, 251);
+    border-radius: 5px;
+    margin: 0px 5px;
+    padding: 3px 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    float: right;
+  }
+  
+  #header{
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  h1{
+    margin-bottom: 20px; 
+  }
+  
+  #input-button:hover {
+    background-color: #8b0aee; 
+  } 
+  
+  ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align:left;
+  }
+  
+  li {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #8533d7;
+  }
+
+  #text{
+    color: #00f7ff;
+  }
+  
+  .edit-btn, .delete-btn, .complete-btn{
+    float: right;
+    color:rgb(244, 7, 55);
+    cursor: pointer;
+    margin: 3px 5px;
+    border: none;
+    padding: 3px 5px;
+    background: none;  
+  } 
+  
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+    border: 1px solid rgb(13, 13, 13);
+  }
